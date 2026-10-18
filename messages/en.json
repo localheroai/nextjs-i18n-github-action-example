@@ -1,0 +1,25 @@
+{
+  "TeamSettings": {
+    "title": "Team settings",
+    "description": "Manage who can access {teamName} and what they can do.",
+    "memberCount": "{count, plural, one {# member} other {# members}}",
+    "members": {
+      "heading": "Members",
+      "you": "You",
+      "remove": "Remove"
+    },
+    "roles": {
+      "admin": "Admin",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "invite": {
+      "heading": "Invite a teammate",
+      "seatsLeft": "{count, plural, =0 {No seats left} one {# seat left} other {# seats left}}",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "name@company.com",
+      "roleLabel": "Role",
+      "submit": "Send invite"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "TeamSettings": {
+    "title": "Teameinstellungen",
+    "description": "Verwalte, wer Zugriff auf {teamName} hat und was die Mitglieder dort tun können.",
+    "memberCount": "{count, plural, one {# Mitglied} other {# Mitglieder}}",
+    "members": {
+      "heading": "Mitglieder",
+      "you": "Du",
+      "remove": "Entfernen"
+    },
+    "roles": {
+      "admin": "Admin",
+      "editor": "Bearbeiter",
+      "viewer": "Betrachter"
+    },
+    "invite": {
+      "heading": "Teammitglied einladen",
+      "seatsLeft": "{count, plural, =0 {Keine Plätze mehr frei} one {# Platz frei} other {# Plätze frei}}",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "name@firma.de",
+      "roleLabel": "Rolle",
+      "submit": "Einladung senden"
+    }
+  }
+}
