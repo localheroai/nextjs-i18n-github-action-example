@@ -1,10 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "projectId": "your-project-id",
+  "projectId": "nextjs-i18n-github-action-example",
   "sourceLocale": "en",
-  "outputLocales": ["sv", "pl", "de"],
+  "outputLocales": [
+    "sv",
+    "pl",
+    "de"
+  ],
   "translationFiles": {
-    "paths": ["messages/"],
-    "pattern": "**/*.json"
+    "paths": [
+      "messages/"
+    ],
+    "pattern": "**/*.json",
+    "ignore": []
   }
 }
