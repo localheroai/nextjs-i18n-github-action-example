@@ -19,7 +19,11 @@
       "emailLabel": "Adres e-mail",
       "emailPlaceholder": "imie@firma.pl",
       "roleLabel": "Rola",
-      "submit": "Wyślij zaproszenie"
+      "submit": "Wyślij zaproszenie",
+      "pendingHeading": "Oczekujące zaproszenia",
+      "pendingCount": "{count, plural, =0 {Brak oczekujących zaproszeń} one {# zaproszenie oczekuje na odpowiedź} few {# zaproszenia oczekują na odpowiedź} many {# zaproszeń oczekuje na odpowiedź} other {# zaproszenia oczekuje na odpowiedź}}",
+      "resend": "Wyślij ponownie",
+      "revoke": "Cofnij"
     }
   }
 }
