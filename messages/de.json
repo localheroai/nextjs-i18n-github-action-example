@@ -19,7 +19,11 @@
       "emailLabel": "E-Mail-Adresse",
       "emailPlaceholder": "name@firma.de",
       "roleLabel": "Rolle",
-      "submit": "Einladung senden"
+      "submit": "Einladung senden",
+      "pendingHeading": "Ausstehende Einladungen",
+      "pendingCount": "{count, plural, =0 {Keine ausstehenden Einladungen} one {# Einladung noch ohne Antwort} other {# Einladungen noch ohne Antwort}}",
+      "resend": "Erneut senden",
+      "revoke": "Zurückziehen"
     }
   }
 }

@@ -2,6 +2,7 @@ import {useTranslations} from 'next-intl';
 
 const TEAM_NAME = 'Northwind Studio';
 const SEATS_LEFT = 2;
+const PENDING_INVITES = ['maja@northwind.example', 'tomasz@northwind.example'];
 const ROLES = ['admin', 'editor', 'viewer'] as const;
 
 type Role = (typeof ROLES)[number];
@@ -73,6 +74,23 @@ export default function TeamSettingsPage() {
           </label>
           <button type="submit">{t('invite.submit')}</button>
         </form>
+        <h3>{t('invite.pendingHeading')}</h3>
+        <p className="muted">{t('invite.pendingCount', {count: PENDING_INVITES.length})}</p>
+        <ul className="members">
+          {PENDING_INVITES.map((email) => (
+            <li key={email}>
+              <div className="muted">{email}</div>
+              <span>
+                <button type="button" className="secondary">
+                  {t('invite.resend')}
+                </button>{' '}
+                <button type="button" className="secondary">
+                  {t('invite.revoke')}
+                </button>
+              </span>
+            </li>
+          ))}
+        </ul>
       </section>
     </main>
   );

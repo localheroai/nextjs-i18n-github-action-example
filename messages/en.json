@@ -19,7 +19,11 @@
       "emailLabel": "Email address",
       "emailPlaceholder": "name@company.com",
       "roleLabel": "Role",
-      "submit": "Send invite"
+      "submit": "Send invite",
+      "pendingHeading": "Pending invites",
+      "pendingCount": "{count, plural, =0 {No pending invites} one {# invite waiting for a reply} other {# invites waiting for a reply}}",
+      "resend": "Resend",
+      "revoke": "Revoke"
     }
   }
 }
