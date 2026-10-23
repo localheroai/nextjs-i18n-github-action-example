@@ -3,3 +3,5 @@
 next-env.d.ts
 *.tsbuildinfo
 .DS_Store
+
+.localhero_key*
